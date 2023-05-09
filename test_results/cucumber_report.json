@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-09T00:45:05.068Z",
+        "line": 4,
+        "name": "As a User, I am able to select different departments and search",
+        "description": "",
+        "id": "amazon-departments;as-a-user--i-am-able-to-select-different-departments-and-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9790309000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the amazon homepage",
+            "match": {
+              "location": "step_definitions.AmazonTests_steps.i_am_on_the_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347828000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The departments dropdown is \"All Departments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Departments\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.the_departments_dropdown_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371221000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select the department \"Home \u0026 Kitchen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home \u0026 Kitchen\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_select_the_department(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4249671000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search \"Coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 9
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121574000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on \"Coffee mug\" search result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.i_should_be_on_search_result_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 255878000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The departments dropdown is \"Home \u0026 Kitchen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home \u0026 Kitchen\"",
+                  "offset": 28
+                }
+              ],
+              "location": "step_definitions.AmazonTests_steps.the_departments_dropdown_is(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonTest"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon departments",
+    "description": "",
+    "id": "amazon-departments",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AmazonDepartment.feature",
+    "tags": []
+  }
+]
